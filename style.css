@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(23deg, #06002B, #020B60, #01073D, #04001D);
+    background: linear-gradient(-368deg, #03001f, #02094e, #01073D, #030016);
     background-attachment: fixed;
+    max-height: 100vh;
 }
 
 img {
@@ -13,7 +14,7 @@ img {
 
 div {
     width: 355px;
-    height: 447px;
+    /* height: 447px; */
     background-color: white;
     text-align: center;
     border-radius: 10px;
@@ -56,7 +57,7 @@ p {
     margin-top: 18px;
     width: 295px;
     padding-left: 15px;
-    color: #606060;
+    color: hsl(0, 0%, 38%);
 }
 
 #entrar {
@@ -122,3 +123,19 @@ p {
     }
 }
 
+footer {
+    text-align: center;
+    margin-top: 260px;
+}
+
+footer > a {
+    color: #59636E;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6 {
+    margin: 20px;
+    font-weight: 600;
+}
