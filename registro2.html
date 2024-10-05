@@ -40,7 +40,6 @@
 
         div {
             height: 400px;
-            width: 370px;
         }
 
         @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
@@ -106,25 +105,22 @@
         }
 
         #registro-box > #tem-conta {
-            font-size: 12px;
+            font-size: 13px;
             padding-left: 15px;
             padding-right: 15px;
         }
 
         #registro-box .cadastro {
-            font-size: 12px;
+            font-size: 13px;
         }
 
         #registro-box .sessao {
-            margin-top: 152px;
+            margin-top: 25px;
             margin-bottom: 20px;
         }
 
         #bem-vindo {
             padding-top: 20px;
-            width: 300px;
-            text-align: center;
-            margin: auto;
         }
 
         .insira {
@@ -137,94 +133,32 @@
         }
 
         .icon {
-        fill: #e6e9ff; 
+        fill: #e6e9ff; /* Cor do ícone */
         }
 
         .icon path {
-        stroke: #e6e9ff; 
+        stroke: #e6e9ff; /* Cor da borda do ícone */
         }
 
         #entre-id {
             color: #e6e9ff;
         }
 
-        #tent {
-            margin-left: 20px;
-        }
-
-        .caixinha {
-            width: 20px;
-            height: 20px;
-            box-sizing: border-box;
-            padding: 0px;
-}
-       #exibir-senha {
-        background: none;
-        margin: 0px;
-        height: 0px;
-        width: 0px;
-    
-       }
-
-       #text-senha {
-        width: 305px;
-        margin-top: 18px;
-        margin-left: 23px;
-       }
-
-       .teste {
-
-        align-items: center;
-        margin-top: 10px;
-        display: flex;
-        height: 30px;
-        width: 330px;
-       }
-
-       .caixinha {
-        margin-left: 30px;
-       }
-
-       #exibir {
-        font-size: 14px;
-        margin-left: 3px;
-        color: black;
-        margin-top: 12px;
-        height: 18px;
-        letter-spacing: 0px;
-
-       }
-
-       #teste-baixo {
-        margin-top: 0px;
-        text-align: justify;
-       }
-
-       #caixinha-baixo {
-        width: 36px;
-        height: 36px;
-       }
-
-       .icon- {
-        padding-right: 100px;
-       }
-
-       .setinha-voltar {
-        text-decoration: none;
-        color: black;
-       }
-
-       .sessa {
+        .sessa {
     display: flex;
     align-items: center; /* Alinha verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
     text-align: center; /* Garante que o texto fique centralizado */
-}
-       .setinha-voltar:hover {
-        color: #0068AD;
-       }
+        }
 
+        .setinha-voltar {
+            text-decoration: none;
+            color: black;
+        }
 
+        .setinha-voltar:hover {
+            color: #0068AD;
+        }
     </style>
 </head>
 <body>
@@ -239,35 +173,23 @@
     <div>
         <div id="registro-box">
         <p id="bem-vindo" class="sessa">
-            <a class="setinha-voltar" href="login.html">
+            <a class="setinha-voltar" href="registro.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="setinha-voltar" viewBox="0 0 16 16" style="position: relative; left: -40px;">
                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
                   </svg>
-            </a>
-          </a>Bem vindo ao EducaPlus!<br>
+                </a>
+            Bem vindo ao EducaPlus!<br>
             Vamos comecar sua aventura</p>
         <form>
-            <p class="insira">Insira seu email *</p>
-            <input type="text" class="input" id="text" name="nome" placeholder="E-mail">
-            <p id="criar" class="insira">Criar uma senha *</p>
-            <div id="exibir-senha">
-                <input type="password" class="input" id="text-senha" name="senha" placeholder="Senha">
-                <label class="teste" for="">
-                    <input class="caixinha" data-testid="ShowHidePasswordCheckbox" name="ShowHidePasswordCheckbox" type="checkbox" aria-label="Exibir senha" value="Exibir senha">
-                    <p id="exibir">Exibir senha</p>
-                </label>
-                <label id="teste-baixo" class="teste" for="">
-                    <input id="caixinha-baixo" class="caixinha" data-testid="ShowHidePasswordCheckbox" name="ShowHidePasswordCheckbox" type="checkbox" aria-label="Exibir senha" value="Exibir senha">
-                    <p id="exibir">Eu gostaria de receber informações, dicas e ofertas sobre serviços do Educaplus.
-                    </p>
-                </label>
-            </div>
-            </span>
+            <p class="insira">Insira seu nome completo *</p>
+            <input type="text" class="input" id="text" name="nome" placeholder="Nome">
+            <p id="criar" class="insira">Insira sua data de nascimento *</p>
+            <input id="text" class="input" type="date" id="birthdate" name="birthdate" required>
         </form>
-        <a href="registro2.html">
-            <p class="sessao" id="entrar">Continuar</p>
+        <a href="login.html">
+            <p class="sessao" id="entrar">Cadastrar</p>
         </a>
-        
+            <p id="tem-conta">Ao clicar em "Cadastrar", declaro que aceito as <a href="#" class="cadastro" id="cadastro">Políticas de Privacidade</a> e os <a href="#" class="cadastro" id="cadastro">Termos de Uso</a> do EducaPlus.</p>
         </div>
     </div>
     <footer>
