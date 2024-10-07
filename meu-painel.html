@@ -14,7 +14,7 @@
         }
 
         body {
-            background-color: #15161B;
+            background-color: #101423;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
@@ -32,6 +32,7 @@
 
         .navegador {
             margin: 20px;
+            
         }
 
         header > a {
@@ -43,14 +44,18 @@
 
         #meu-painel {
             color: #0068AD;
+            margin: 0px;
+            width: 150px;
+            margin: 20px;    
         }
 
         #header-icon-bell {
-            margin-left: 55.5%;
+            margin-left: 53%;
         }
 
         #header-icon {
             margin-left: 10px;
+            width: 60px;
         }
 
         header > a > .icon path {
@@ -59,7 +64,7 @@
         }
 
         div {
-            background-color: #2D2D37;
+            background-color: #2832553d;
             width: 855px;
             height: 570px;
             margin: auto;
@@ -68,12 +73,14 @@
 
         #informacoes {
             padding: 30px;   
+            height: 580px;
         }
 
         #primeiras-informacoes {
             display: flex;
             height: 130px;
             margin: 0px;
+            background: none;
         }
 
         div > p > .icon path {
@@ -180,22 +187,23 @@
 
         .butao {
             color: rgb(255, 255, 255);
-            background-color: #808080;
+            background-color: #545c75;
+
             padding: 5px 7px;
             border: none;
             border-radius: 5px;
         }
 
         .botao-final {
-            background-color: #24242C;
+            background-color: #101423;
             margin-top: 35px;
-            border-radius: 20px;
+            border-radius: 8px;
             width: 190px;
             height: 50px;
             border: none;
             color: white;
             font-size: 13px;
-            
+            margin-left: 6px;
         }
 
         .no-bg {
@@ -205,7 +213,7 @@
 
         #mais {
             margin-left: 20px;
-            margin-bottom: 3px;
+            margin-bottom: 0px;
         }
 
         #ultimo {
@@ -234,14 +242,15 @@
         }
 
         #div2 {
+            display: flex;
             margin-top: 35px;
             width: 920px;
             justify-content: center;
         }
         
         .botao-final:hover {
-            border: 2px solid gray; 
-            border-radius: 20px; 
+            border: 2px solid #545C75 !important; 
+            border-radius: 8px; 
             padding: 2px; 
         }
 
@@ -257,8 +266,9 @@
             font-size: 17px;
             font-weight: 700;
             border: none;
-            background-color: #808080;
+            background-color: #545c75;
             color: white;
+            
         }
 
         #conquistas2 {
@@ -281,15 +291,21 @@
             line-height: 30px;
         }
 
+        .botoes {
+            text-align: center;
+        }
+
         #curso-pontuacao {
-            width: 120px;
-            height: 120px;
-            margin-left: 45px;
+            
+            width: 110px;
+            height: 110px;
+            margin: auto;
         }
 
         #botao-baixo {
-            padding: 25%;
             height: 200px;
+            margin: 10px;
+            
         }
 
         .text {
@@ -311,6 +327,7 @@
         }
 
         #primeira-coluna {
+            
             flex-flow: wrap;
             margin-top: 50px;
             display: flex;
@@ -319,11 +336,11 @@
         }
 
         #segunda-coluna {
-            flex-flow: wrap;
             margin-top: 50px;
+            flex-flow: wrap;
             display: flex;
             background: none;
-            height: 220px;    
+            height: 180px;    
         }
 
         #footer {
@@ -348,6 +365,14 @@
             margin-left: 20px;
         }
 
+        #segunda-fileira {
+            margin-top: 15px;
+        }
+
+        #ultimo {
+            margin-top: 15px;
+        }
+
         
 
     </style>
@@ -355,7 +380,7 @@
 <body>
     <header>    
         <img src="images/logo_completa.educaplus.png" alt="logo-educa-plus">
-        <a class="navegador" href="#">Cursos</a>
+        <a class="navegador" href="cursos.html">Cursos</a>
         <a class="navegador" href="#">Sobre</a>
         <a class="navegador" href="#">EducaUltra</a>
         <a class="navegador" href="#">Forum</a>
@@ -367,6 +392,11 @@
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
           </svg></a>
+          <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+          </a>
     </header>
     <main>
         <span id="meu-painel-2"><p>MEU PAINEL</p></span>
@@ -379,7 +409,7 @@
                       </svg>
                 </p>
                 <span id="name-plano">
-                <p id="name">Gabriel Bilau de Oliveira</p>
+                <p id="name">Gabriel Alves de Oliveira</p>
                 <p id="educabasic">PLANO EDUCABASIC</p>
                 </span>
                 <span id="editar-perfil"><a id="editar-perfil-char" href="#">EDITAR PERFIL</a></span>
@@ -428,21 +458,21 @@
 
                 </div>
                 <div id="segunda-fileira" class="no-bg">
-                    <button class="botao-final"><span class="linha-cima">pontuacao</span><br>
+                    <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 07</span></button>
-                    <button class="botao-final"><span class="linha-cima">pontuacao</span><br>
+                    <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 06</span></button>
-                    <button class="botao-final"><span class="linha-cima">pontuacao</span><br>
-                        <span class="linha-baixo">port. - questao 05</span></button>
-                    <button class="botao-final"><span class="linha-cima">pontuacao</span><br>
+                    <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 04</span></button>
-                        <svg xmlns="http://www.w3.org/2000/svg" id="mais" width="25" height="25" viewBox="0 0 16 16">
-                            <circle cx="8" cy="8" r="8" fill="gray" />
+                    <button class="botao-final"><span class="linha-cima">pontuação</span><br>
+                        <span class="linha-baixo">port. - questao 04</span></button>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="mais" width="30" height="30" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" fill="#101423" />
                             <path d="M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" fill="white" /> 
                         </svg>
                 </div>
                 <div id="ultimo" class="no-bg"></div>
-                    <button class="botao-final"><span class="linha-cima">pontuacao</span><br>
+                    <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 02</span></button>
                     <button class="botao-final"><span class="linha-cima"></span><br>
                         <span class="linha-baixo">vazio</span></button>
@@ -452,28 +482,28 @@
                         <span class="linha-baixo">vazio</span></button>
                 </div>
                 <div id="div2">
-                    <span id="botao-baixo">
+                    <span class="botoes" id="botao-baixo">
                     <button id="conquistas2">Conquistas
                         <span id="num">6</span>
                     </button>
-                    <button id="cursos">Meus cursos
+                    <button class="botoes" id="cursos">Meus cursos
                         <span id="num">2</span>
                     </button>
                     <div id="primeira-coluna">
                         <span id="conexao">
-                        <img id="curso-pontuacao" src="images/curso-pontuacao.png" alt="curso-pontuacao">
+                        <img id="curso-pontuacao" src="images/emblema-pontucao.png" alt="curso-pontuacao">
                         <p class="text">uso de reticencias</p>
                         </span>
                         <span id="conexao">
-                            <img id="curso-pontuacao" src="images/curso-pontuacao.png" alt="curso-pontuacao">
+                            <img id="curso-pontuacao" src="images/emblema-pontucao.png" alt="curso-pontuacao">
                             <p class="text">uso de aspas</p>
                             </span>
                             <span id="conexao">
-                                <img id="curso-pontuacao" src="images/curso-pontuacao.png" alt="curso-pontuacao">
+                                <img id="curso-pontuacao" src="images/emblema-pontucao.png" alt="curso-pontuacao">
                                 <p class="text">uso de virgulas</p>
                                 </span>
                                 <span id="conexao">
-                                    <img id="curso-pontuacao" src="images/curso-pontuacao.png" alt="curso-pontuacao">
+                                    <img id="curso-pontuacao" src="images/emblema-pontucao.png" alt="curso-pontuacao">
                                     <p class="text">uso de parenteses</p>
                                 </span>
                         </div>
@@ -492,9 +522,5 @@
             </div>
     </main>
     <footer> 
-   <!---    <div id="footer">
-       <div id="conteudo-footer"><img id="footer-icon" src="images/Screenshot_7.png" alt=""></div>
-        </div>
-    </footer>
 </body>
 </html>
