@@ -196,7 +196,6 @@
 
         .botao-final {
             background-color: #101423;
-            margin-top: 35px;
             border-radius: 8px;
             width: 190px;
             height: 50px;
@@ -206,9 +205,10 @@
             margin-left: 6px;
         }
 
+
         .no-bg {
             background-color: transparent;
-            height: 41px;
+            height: 44px;
         }
 
         #mais {
@@ -250,7 +250,7 @@
         }
         
         .botao-final:hover {
-            border: 2px solid #545C75 !important; 
+            border: 2px solid #545C75; 
             border-radius: 8px; 
             padding: 2px; 
         }
@@ -367,11 +367,11 @@
         }
 
         #segunda-fileira {
-            margin-top: 15px;
+            margin-top: 10px;
         }
 
         #ultimo {
-            margin-top: 15px;
+            margin-top: 10px;
         }
         
         #arrow-bottom {
@@ -382,13 +382,19 @@
             margin: 0px;
         }
 
+        nav {
+            height: 160px;
+            margin-top: 30px;
+        }
+
+
     </style>
 </head>
 <body>
     <header>    
         <img src="images/logo_completa.educaplus.png" alt="logo-educa-plus">
         <a class="navegador" href="cursos.html">Cursos</a>
-        <a class="navegador" href="#">Sobre</a>
+        <a class="navegador" href="sobre.html">Sobre</a>
         <a class="navegador" href="#">EducaUltra</a>
         <a class="navegador" href="#">Forum</a>
         <a id="meu-painel" class="navegador" href="#">Meu painel</a>
@@ -453,18 +459,17 @@
                 <button class="butao">30 DIAS</button>
                 <button class="butao">SEMPRE</button>
                 </span>
-                <div class="no-bg">
-                    <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
-                        <span class="linha-baixo">mat. - questao 12</span></button>
-                    <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
-                        <span class="linha-baixo">mat. - questao 11</span></button>
-                    <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
-                        <span class="linha-baixo">mat. - questao 10</span></button>
-                    <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
-                        <span class="linha-baixo">mat. - questao 09</span></button>
-
-                </div>
-                <div id="segunda-fileira" class="no-bg">
+                <nav>
+                        <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
+                            <span class="linha-baixo">mat. - questao 12</span></button>
+                        <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
+                            <span class="linha-baixo">mat. - questao 11</span></button>
+                        <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
+                            <span class="linha-baixo">mat. - questao 10</span></button>
+                        <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
+                            <span class="linha-baixo">mat. - questao 09</span></button>
+                
+                <nav id="segunda-fileira" class="no-bg">
                     <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 07</span></button>
                     <button class="botao-final"><span class="linha-cima">pontuação</span><br>
@@ -477,7 +482,7 @@
                             <circle cx="8" cy="8" r="8" fill="#101423" />
                             <path d="M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" fill="white" /> 
                         </svg>
-                </div>
+    
                 <div id="ultimo" class="no-bg"></div>
                     <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 02</span></button>

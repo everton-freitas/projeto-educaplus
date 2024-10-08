@@ -75,6 +75,7 @@
             color: rgb(216, 212, 255);
             font-size: 18px;
             text-align: center;
+            margin-bottom: 200px;
         }
 
         #primeira-fileira {
@@ -150,15 +151,54 @@
             width: 17px;
             margin: 0px;
         }
+
+        #conteudo {
+            margin-top: 200px;
+            align-items: center;
+            display: flex;
+            width: 885px;
+            margin: auto;
+        }
+
+ 
+        #conteudo-1 {
+            margin: auto;
+        }
+
+        #c2 {
+            font-size: 20px;
+            width: 500px;
+            height: 730px;
+            flex-shrink: 0;
+            background-color: #161b2f68;
+            color: white;
+            padding: 30px 40px;
+            letter-spacing: 2px;
+        }
+
+
+        #conteudo-2 {
+            font-size: 20px;
+            align-items: center;
+            display: flex;
+            width: 320px;
+            margin-left: 25%;
+            margin-top: -115px;
+            text-align: right;
+            color: white;
+            letter-spacing: 2px;
+        }
+
         
+           
 
     </style>
 </head>
 <body>
     <header>    
         <img src="images/logo_completa.educaplus.png" alt="logo-educa-plus">
-        <a id="cursos" class="navegador" href="cursos.html">Cursos</a>
-        <a class="navegador" href="sobre.html">Sobre</a>
+        <a class="navegador" href="cursos.html">Cursos</a>
+        <a id="cursos" class="navegador" href="">Sobre</a>
         <a class="navegador" href="#">EducaUltra</a>
         <a class="navegador" href="#">Forum</a>
         <a id="meu-painel" class="navegador" href="meu-painel.html">Meu painel</a>
@@ -178,24 +218,27 @@
     <main>
         <main>
             <div>
-            <span id="cursos-2"><p>CURSOS</p></span>
+            <span id="cursos-2"><p>SOBRE</p></span>
             <p class="seja">Assine o EducaUltra e remova os anúncios do site, tenha direito a cursos excluvisos e diversos outros benefícios</p>
-            <container id="primeira-fileira">
-                <div title="Curso de Pontuação - Portugues [30 Horas]" class="item-1">
-                <img class="img" src="images/curso-pontuacao.png" alt=""><p class="name-curso">Pontuação - Portugues <br>[20 Horas]</p><p class="descricao">A pontuação é um dos pilares fundamentais da língua portuguesa e desempenha um papel crucial na clareza e no significado [...].</p><a class="veja-mais" href="">Veja mais</a>
+            <span id="geral">
+            </div>
+                <div id="conteudo">
+                    <img src="images/pluseduca.png" alt="">
+                    <span id="c2">
+                        <span>
+                            <h2>A PLATAFORMA DE ENSINO
+                                PLUS EDUCA</h2>
+                            <p id="p1">O Pluseduca é um projeto em desenvolvimento, idealizado por estudantes de Tecnologia da Informação (TI), que busca criar uma plataforma educacional acessível para ajudar a população brasileira a se preparar para o ENEM, vestibulares e concursos públicos. O objetivo principal da plataforma é fornecer conteúdo educacional de forma gratuita, mas também oferecer recursos adicionais para aqueles que buscam uma experiência mais completa.
+                            <br><br>
+                            Um dos diferenciais do Pluseduca será o Ultraeduca, uma assinatura paga que dará acesso a benefícios extras, como materiais complementares, simulados exclusivos, tutoriais avançados e suporte especializado. Mesmo com essa opção premium, a essência da plataforma permanece no ensino gratuito, tornando o aprendizado acessível para todos, independentemente da sua condição financeira.
+                            </p>
+                        </span>
+                    </span>
                 </div>
-                <div title="Curso de Matematica Financeira - Matematica [30 Horas]" class="item-1">
-                    <img class="img" src="images/Screenshot 2024-10-06 145324.png" alt=""><p class="name-curso">Matematica Financeira - Matematica [30 Horas]</p><p class="descricao"> A Matemática Financeira é fundamental para a gestão de recursos pessoais e empresariais, permitindo que os alunos compreendam [...].</p><a class="veja-mais" href="">Veja mais</a>
+                <div id="conteudo-2">
+                    <p>Atualmente, o Pluseduca está em fase de planejamento e projeção, com os desenvolvedores trabalhando para garantir uma experiência educacional eficiente e inovadora. A proposta ainda está sendo refinada, mas a equipe está confiante de que será uma solução revolucionária para democratizar o ensino e ajudar os estudantes brasileiros a alcançar seus objetivos educacionais de forma prática e acessível</p>
                 </div>
-                <div title="Curso de Matematica Financeira - Matematica [30 Horas]" class="item-1">
-                    <img class="img" src="images/curso-redacao.png" alt=""><p class="name-curso">Redação Completa<br> [40 Horas]</p><p class="descricao"> Escrever bem vai além de transmitir ideias; é uma forma de organizar pensamentos, expressar opiniões de forma clara e convencer o leitor com [...].</p><a class="veja-mais" href="">Veja mais</a>
-                </div>
-                
-
-
-            </container>
-            <container id="segunda-fileira">
-            </container>
+            </div>
     </main>
     
 </body>

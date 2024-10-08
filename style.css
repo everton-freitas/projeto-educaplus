@@ -143,3 +143,8 @@ footer > a {
 #entrar:hover {
     background-image: linear-gradient(23deg, #000536, #09025e);
 }
+
+#l {
+    text-decoration: none;
+}
+
