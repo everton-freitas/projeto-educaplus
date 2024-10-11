@@ -148,3 +148,156 @@ footer > a {
     text-decoration: none;
 }
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+header > a > svg {
+    margin-left:10px;
+    margin-top: 6.5px;
+}
+
+
+header > img {
+    margin-left: 18%;
+    margin-right: 46%;
+}
+
+header > p {
+    color: #8193B2;
+    font-size: 17px;
+}
+
+header > p > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center
+}
+
+div {
+    height: 400px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.equipe {        
+font-family: "Source Code Pro";
+letter-spacing: 0px;
+
+}
+
+.input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+#profissao {
+    font-weight: 550;
+}
+
+#esqueceu-senha {
+    margin-top: 20px;
+    
+}
+
+#tem-conta {
+    margin-top: -5px;
+    font-size: 1px;
+}
+
+.sessao {
+    
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 24px; 
+    letter-spacing: 0.5px;      
+      
+}
+
+#registro-box {
+    margin: auto;
+}
+
+.insira {
+    color: #0068AD;
+    font-weight: 600;
+    text-align: start;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.input {
+    margin: 0px;
+}
+
+#criar {
+    margin-top: 20px;
+}
+
+#registro-box > p {
+    font-size: 16px;
+}
+
+#registro-box > #tem-conta {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#registro-box .cadastro {
+    font-size: 13px;
+}
+
+#registro-box .sessao {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#bem-vindo {
+    padding-top: 20px;
+}
+
+.insira {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.entre {
+    font-weight: 600;
+}
+
+.icon {
+fill: #e6e9ff; /* Cor do ícone */
+}
+
+.icon path {
+stroke: #e6e9ff; /* Cor da borda do ícone */
+}
+
+#entre-id {
+    color: #e6e9ff;
+}
+
+.sessa {
+display: flex;
+align-items: center; /* Alinha verticalmente */
+justify-content: center; /* Centraliza horizontalmente */
+text-align: center; /* Garante que o texto fique centralizado */
+}
+
+.setinha-voltar {
+    text-decoration: none;
+    color: black;
+}
+
+.setinha-voltar:hover {
+    color: #0068AD;
+}
