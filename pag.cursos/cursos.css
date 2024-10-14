@@ -143,3 +143,7 @@ width: 60px;
     margin: 0px;
 }
 
+main a {
+    text-decoration: none;
+}
+
