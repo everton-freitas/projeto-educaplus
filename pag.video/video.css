@@ -9,7 +9,10 @@ body {
     margin: 0px;
 }
 
-
+header a {
+    text-decoration: none;
+    color: white;
+}
 
 #c1-1 {
     align-items: center;
@@ -49,8 +52,8 @@ body {
 #c1-5 {
     width: 1250px;
     height: 699.23px;
-    background-color: bisque;
-    margin-left: 34.5%;
+    background: none;
+    margin-left: 34.2%;
    
 }
 

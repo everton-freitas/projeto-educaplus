@@ -160,7 +160,7 @@ width: 60px;
 #c2 {
     font-size: 20px;
     width: 500px;
-    height: 730px;
+    height: 930px;
     flex-shrink: 0;
     background-color: #161b2f68;
     color: white;
@@ -175,8 +175,12 @@ width: 60px;
     display: flex;
     width: 320px;
     margin-left: 25%;
-    margin-top: -115px;
+    margin-top: -215px;
     text-align: right;
     color: white;
     letter-spacing: 2px;
+}
+
+.p1 {
+    line-height: 1.8em;
 }
